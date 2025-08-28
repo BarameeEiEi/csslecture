@@ -1,0 +1,29 @@
+h1 {
+  text-align: center;
+  color: blueviolet;
+}
+h3 {
+  text-align: center;
+}
+#A {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+span {
+  font-weight: bold;
+  font-size: 30px;
+}
+#B {
+  margin-left: 150px;
+  margin-right: 150px;
+}
+img {
+  width: 150px;
+  border-radius: 10px;
+}
+#C {
+  border: 2px solid purple;
+}
+#D {
+  border: 2px solid palevioletred;
+}
