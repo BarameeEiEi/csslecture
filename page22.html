@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      /* การจัด leyout เเบบ flex คือ การจัดเรียง element ในเเนวนอนหรือเเนวตั้ง */
+      #container1 {
+        display: flex;
+        flex-direction: row;/* row,column,row-reverse,column-reverse */
+        gap: 20px;
+      }
+      #item-22{
+        font-size: 30px;
+      }
+      #container2{
+        display: flex;
+        /* gap: 10px; */
+        justify-content: space-evenly; 
+        /* space-around,space-between,space-evenly,start,center,end */
+        align-items: center;
+
+      }
+    </style>
+  </head>
+  <body>
+    <!-- CSS: Flex Layout -->
+    <div id="container1">
+      <div id="item-1">A</div>
+      <div id="item-2">B</div>
+      <div id="item-3">C</div>
+      <div id="item-4">D</div>
+
+    </div>
+    <hr />
+    <div id="container2">
+      <div id="item-11">A</div>
+      <div id="item-22">B</div>
+      <div id="item-33">C</div>
+      <div id="item-44">D</div>
+    </div>
+    <hr />
+    <div id="container3">
+      <div id="item-111">A</div>
+      <div id="item-222">B</div>
+      <div id="item-333">C</div>
+      <div id="item-444">D</div>
+      <div id="item-555">E</div>
+      <div id="item-666">F</div>
+      <div id="item-777">G</div>
+      <div id="item-888">H</div>
+      <div id="item-999">I</div>
+      <div id="item-10">J</div>
+    </div>
+  </body>
+</html>
